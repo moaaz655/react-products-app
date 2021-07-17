@@ -1,17 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 styling scrollbars ::-webkit-scrollbar {
   width: 5px;
   height: 6px;
@@ -71,7 +57,7 @@ body {
   color: #3b9668;
 }
 
-/* .container {
+.container2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 0.8fr 1fr 1fr 1fr;
@@ -79,7 +65,7 @@ body {
   grid-template-areas:
     "sidebar nav nav nav"
     "sidebar main main main";
-} */
+}
 
 @media only screen and (max-width: 978px) {
   .container {
@@ -89,4 +75,20 @@ body {
       "nav"
       "main";
   }
+}
+
+.navicon {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  color: #fff;
+  transform: translate(100%, 50%);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navdash {
+  background: #cc3d38;
 }
